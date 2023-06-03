@@ -44,7 +44,6 @@ public class HelloController implements Initializable {
 
     public void deleteOne() {
         ObservableList<Film> filmSelect = tableau.getSelectionModel().getSelectedItems();
-        filmSelect.clear();
         tableau.getItems().remove(filmSelect);
     }
 
